@@ -12,6 +12,7 @@ let interval = null;
 startBtn.addEventListener('click', start);
 pauseBtn.addEventListener('click', pauseTime);
 endBtn.addEventListener('click', endTimer);
+endBtn.addEventListener('click', pauseTime);
 
 
 // update the timer
